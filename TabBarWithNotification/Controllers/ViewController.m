@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+@property (nonatomic, weak) IBOutlet UITextField *textField;
+@property (nonatomic, weak) IBOutlet UILabel *label;
+
 @end
 
 @implementation ViewController
@@ -19,6 +22,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.title = @"Principal";
+    
+    self.label.text = nil;
 }
 
 - (void)didReceiveMemoryWarning {

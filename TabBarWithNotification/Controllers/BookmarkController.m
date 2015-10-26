@@ -10,6 +10,9 @@
 
 @interface BookmarkController ()
 
+@property (nonatomic, weak) IBOutlet UITextField *textField;
+@property (nonatomic, weak) IBOutlet UILabel *label;
+
 @end
 
 @implementation BookmarkController
@@ -17,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.label.text = nil;
 }
 
 - (void)didReceiveMemoryWarning {

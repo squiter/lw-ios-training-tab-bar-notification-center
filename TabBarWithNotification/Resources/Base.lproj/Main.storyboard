@@ -45,6 +45,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="aoJ-Pr-zvO"/>
+                    <connections>
+                        <outlet property="label" destination="tAe-Cw-cFL" id="D4n-bj-y0d"/>
+                        <outlet property="textField" destination="eyI-FD-jY2" id="nos-86-o67"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,6 +106,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="CEc-dy-HHZ"/>
+                    <connections>
+                        <outlet property="label" destination="G7U-Wv-lIY" id="7E4-IP-Si6"/>
+                        <outlet property="textField" destination="Idb-MB-h9h" id="dos-48-ibO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cw6-rr-GMs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -159,6 +167,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="topRated" id="Kgv-L8-7R8"/>
+                    <connections>
+                        <outlet property="label" destination="mhQ-Gz-zMc" id="PUm-b5-fHF"/>
+                        <outlet property="textField" destination="X2B-Zc-gJU" id="rRR-Be-Itn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tk2-ql-IOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -236,6 +248,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="uuz-3D-XK5"/>
+                    <connections>
+                        <outlet property="label" destination="mXU-u8-t0C" id="fKD-oB-MOu"/>
+                        <outlet property="textField" destination="jh4-v4-SHw" id="TVr-aG-331"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hna-m0-z8w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
