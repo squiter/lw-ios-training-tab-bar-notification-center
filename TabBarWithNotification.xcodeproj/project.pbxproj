@@ -15,6 +15,9 @@
 		815C48A61BDEB01400CBCF8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815C489C1BDEB01400CBCF8E /* LaunchScreen.storyboard */; };
 		815C48A71BDEB01400CBCF8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815C489E1BDEB01400CBCF8E /* Main.storyboard */; };
 		815C48A91BDEB01400CBCF8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C48A21BDEB01400CBCF8E /* main.m */; };
+		815C48AC1BDEB0F400CBCF8E /* BookmarkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C48AB1BDEB0F400CBCF8E /* BookmarkController.m */; };
+		815C48AF1BDEB10B00CBCF8E /* ToRatedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C48AE1BDEB10B00CBCF8E /* ToRatedController.m */; };
+		815C48B21BDEB12400CBCF8E /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C48B11BDEB12400CBCF8E /* ContactsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		815C489F1BDEB01400CBCF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		815C48A11BDEB01400CBCF8E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		815C48A21BDEB01400CBCF8E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		815C48AA1BDEB0F400CBCF8E /* BookmarkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkController.h; sourceTree = "<group>"; };
+		815C48AB1BDEB0F400CBCF8E /* BookmarkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkController.m; sourceTree = "<group>"; };
+		815C48AD1BDEB10B00CBCF8E /* ToRatedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToRatedController.h; sourceTree = "<group>"; };
+		815C48AE1BDEB10B00CBCF8E /* ToRatedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToRatedController.m; sourceTree = "<group>"; };
+		815C48B01BDEB12400CBCF8E /* ContactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsController.h; sourceTree = "<group>"; };
+		815C48B11BDEB12400CBCF8E /* ContactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,12 @@
 			children = (
 				815C48981BDEB01400CBCF8E /* ViewController.h */,
 				815C48991BDEB01400CBCF8E /* ViewController.m */,
+				815C48AA1BDEB0F400CBCF8E /* BookmarkController.h */,
+				815C48AB1BDEB0F400CBCF8E /* BookmarkController.m */,
+				815C48AD1BDEB10B00CBCF8E /* ToRatedController.h */,
+				815C48AE1BDEB10B00CBCF8E /* ToRatedController.m */,
+				815C48B01BDEB12400CBCF8E /* ContactsController.h */,
+				815C48B11BDEB12400CBCF8E /* ContactsController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -294,7 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815C48AF1BDEB10B00CBCF8E /* ToRatedController.m in Sources */,
 				815C48A31BDEB01400CBCF8E /* AppDelegate.m in Sources */,
+				815C48B21BDEB12400CBCF8E /* ContactsController.m in Sources */,
+				815C48AC1BDEB0F400CBCF8E /* BookmarkController.m in Sources */,
 				815C48A91BDEB01400CBCF8E /* main.m in Sources */,
 				815C48A41BDEB01400CBCF8E /* ViewController.m in Sources */,
 			);
