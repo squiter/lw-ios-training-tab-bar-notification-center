@@ -31,6 +31,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHq-Du-OF7">
                                 <rect key="frame" x="279" y="66" width="42" height="30"/>
                                 <state key="normal" title="Enviar"/>
+                                <connections>
+                                    <action selector="sendNotification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VxW-aI-byN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -83,6 +86,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tej-rY-epC">
                                         <rect key="frame" x="279" y="66" width="42" height="30"/>
                                         <state key="normal" title="Enviar"/>
+                                        <connections>
+                                            <action selector="sendNotification:" destination="3V2-zb-uhW" eventType="touchUpInside" id="7nk-zV-kbh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -144,6 +150,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZa-FB-jMM">
                                         <rect key="frame" x="279" y="66" width="42" height="30"/>
                                         <state key="normal" title="Enviar"/>
+                                        <connections>
+                                            <action selector="sendNotification:" destination="wZy-Hw-LeA" eventType="touchUpInside" id="ZuO-2g-HiJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -225,6 +234,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhB-N3-UAa">
                                         <rect key="frame" x="279" y="66" width="42" height="30"/>
                                         <state key="normal" title="Enviar"/>
+                                        <connections>
+                                            <action selector="sendNotification:" destination="ndY-gR-DE0" eventType="touchUpInside" id="jOX-2z-5S0"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

@@ -21,6 +21,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.label.text = nil;
+    self.label.numberOfLines = 0;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(handleNotification:)
+                                                 name:@"set_labels"
+                                               object:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,14 +35,17 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)sendNotification:(id)sender {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"set_labels"
+                                                        object:self.textField.text
+                                                      userInfo:@{@"class_name": NSStringFromClass([self class])}];
 }
-*/
+
+- (void)handleNotification:(NSNotification *) notification {
+    NSString *text = notification.object;
+    self.label.text = text;
+    self.label.text = [self.label.text stringByAppendingString:@" enviado por: "];
+    self.label.text = [self.label.text stringByAppendingString:[notification.userInfo objectForKey:@"class_name"]];
+}
 
 @end

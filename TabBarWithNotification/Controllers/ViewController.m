@@ -21,14 +21,37 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    // Gambiarra do Ruiz!
+    [self.tabBarController.viewControllers makeObjectsPerformSelector:@selector(view)];
+    
     self.title = @"Principal";
     
     self.label.text = nil;
+    
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(handleNotification:)
+                                                 name:@"set_labels"
+                                               object:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)sendNotification:(id)sender {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"set_labels"
+                                                        object:self.textField.text
+                                                      userInfo:@{@"class_name": NSStringFromClass([self class])}];
+}
+
+- (void)handleNotification:(NSNotification *) notification {
+    NSString *text = notification.object;
+    self.label.text = text;
+    self.label.text = [self.label.text stringByAppendingString:@" enviado por: "];
+    self.label.text = [self.label.text stringByAppendingString:[notification.userInfo objectForKey:@"class_name"]];
 }
 
 @end
