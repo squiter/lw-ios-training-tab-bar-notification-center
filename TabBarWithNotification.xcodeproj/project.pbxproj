@@ -18,6 +18,7 @@
 		815C48AC1BDEB0F400CBCF8E /* BookmarkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C48AB1BDEB0F400CBCF8E /* BookmarkController.m */; };
 		815C48AF1BDEB10B00CBCF8E /* ToRatedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C48AE1BDEB10B00CBCF8E /* ToRatedController.m */; };
 		815C48B21BDEB12400CBCF8E /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C48B11BDEB12400CBCF8E /* ContactsController.m */; };
+		815C48B51BDEBDE200CBCF8E /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815C48B41BDEBDE200CBCF8E /* BaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		815C48AE1BDEB10B00CBCF8E /* ToRatedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToRatedController.m; sourceTree = "<group>"; };
 		815C48B01BDEB12400CBCF8E /* ContactsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsController.h; sourceTree = "<group>"; };
 		815C48B11BDEB12400CBCF8E /* ContactsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsController.m; sourceTree = "<group>"; };
+		815C48B31BDEBDE200CBCF8E /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		815C48B41BDEBDE200CBCF8E /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				815C48AE1BDEB10B00CBCF8E /* ToRatedController.m */,
 				815C48B01BDEB12400CBCF8E /* ContactsController.h */,
 				815C48B11BDEB12400CBCF8E /* ContactsController.m */,
+				815C48B31BDEBDE200CBCF8E /* BaseController.h */,
+				815C48B41BDEBDE200CBCF8E /* BaseController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				815C48AF1BDEB10B00CBCF8E /* ToRatedController.m in Sources */,
+				815C48B51BDEBDE200CBCF8E /* BaseController.m in Sources */,
 				815C48A31BDEB01400CBCF8E /* AppDelegate.m in Sources */,
 				815C48B21BDEB12400CBCF8E /* ContactsController.m in Sources */,
 				815C48AC1BDEB0F400CBCF8E /* BookmarkController.m in Sources */,

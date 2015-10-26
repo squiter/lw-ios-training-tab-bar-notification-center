@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface ToRatedController : UIViewController
+@interface ToRatedController : BaseController
 
 @end

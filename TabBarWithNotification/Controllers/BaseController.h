@@ -1,16 +1,14 @@
 //
-//  ToRatedController.m
+//  BaseController.h
 //  TabBarWithNotification
 //
 //  Created by Treinamento Mobile on 10/26/15.
 //  Copyright © 2015 Treinamento Mobile. All rights reserved.
 //
 
-#import "ToRatedController.h"
+#import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface ToRatedController ()
+@interface BaseController : UIViewController
 
-@end
-
-@implementation ToRatedController
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface BookmarkController : UIViewController
+@interface BookmarkController : BaseController
 
 @end
